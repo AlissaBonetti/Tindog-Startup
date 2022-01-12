@@ -1,0 +1,225 @@
+body {
+  text-align: center;
+}
+
+button {
+  margin: 1rem 1rem 4rem;
+}
+
+@media (max-width:1117px) {
+  button {
+    margin: 0 .3rem 2rem;
+  }
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar Section*/
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.navbar-nav {
+  position: absolute;
+  right: 0;
+}
+
+.nav-item {
+  padding: 1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+/* Title Section */
+
+#title {
+  font-size: 3.5rem;
+}
+
+@media (max-width:1107.26px) {
+  #title {
+    text-align: center;
+  }
+}
+
+.title-h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+  padding-bottom: 1.5rem;
+  text-align: left;
+}
+
+@media (max-width:991px) {
+  .title-h1 {
+    text-align: center;
+  }
+}
+
+.title-nav-div {
+  padding: 3% 15%;
+}
+
+.title-dog-img {
+  Width: 21%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+@media (max-width:1109px) {
+  .title-dog-img {
+    width: 65%;
+    margin-left: 3rem;
+    transform: rotate(0);
+    padding-top: 0;
+    position: static;
+  }
+}
+
+@media (max-width:991px) {
+  .title-dog-img {
+    width: 35%;
+    margin-left: auto;
+  }
+}
+
+/* Features Section */
+
+#features {
+  z-index: 1;
+  position: relative;
+}
+
+.features-h3 {
+  font-weight: 900;
+}
+
+.feature-img {
+  color: #ef8172;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-img:hover {
+  color: #ff4c68;
+}
+
+.features-p {
+  width: 75%;
+  margin: auto;
+  color: #8f8f8f;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonials-h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials-img {
+  width: 20%;
+  border-radius: 100%;
+  margin: 1.5rem 1rem;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 7%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 0 1.2rem;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 0 10% 7%;
+}
+
+.card {
+  margin: 1%;
+}
+
+.card-header {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.card-text {
+  line-height: 1;
+}
+
+.card-title {
+  color: #808080;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #000000;
+}
+
+/* Call to Action Section */
+
+.cta-h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  padding-bottom: 2rem;
+}
+
+/* Footer Section */
+
+#footer {
+  padding: 3% 15% 2%;
+}
+
+.copyright-text {
+  padding-top: 1rem;
+}
+
+.footer-icon {
+  margin: .5rem;
+  color: #000000;
+}
+
+.footer-icon:hover {
+  color: #ff4c68;
+}
